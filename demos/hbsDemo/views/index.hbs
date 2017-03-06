@@ -1,0 +1,14 @@
+<div style="width:200px;">
+    <ul>
+        {{#each persons}}
+            <li>{{this.name}}</li>
+        {{/each}}
+    </ul>
+    <div style = "width:200px;">
+        <from method="post", id="nameoform">
+            <label> Add person: </label>
+            <input name = "name">
+            <input type = "submit">
+        </from>
+    </div>
+</div>
